@@ -14,6 +14,9 @@ public class TestThread {
         Thread b=new Thread(t2);
         a.start();
         a.yield();
+
+
+
         try{
             a.sleep(300);
 
